@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Playwrite DE Grund", cursive;
+}
+
+/* Navlink active */
+.active hr {
+  display: block;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  display: none;
+}
+.slick-slide {
+  padding: 10px 15px;
+}
+
+.custom-dropdown-menu .ant-dropdown-menu-item {
+  background-color: white; /* Default background */
+  transition: background-color 0.3s ease;
+}
+
+.custom-dropdown-menu .ant-dropdown-menu-item:hover {
+  background-color: #f0f0f0; /* Hover color */
+}
